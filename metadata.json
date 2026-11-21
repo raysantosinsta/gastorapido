@@ -1,0 +1,6 @@
+{
+  "name": "GastoRápido",
+  "description": "Registro de despesas sem fricção com Gemini via texto, fotos de cupons fiscais e comprovantes Pix.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

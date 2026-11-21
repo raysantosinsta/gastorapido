@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">GastoRápido</string>
+    <string name="share_intent_label">Registrar no GastoRápido</string>
+
+    <!-- Header & Summary -->
+    <string name="summary_monthly_label">SALDO NO MÊS</string>
+    <string name="summary_income_label">Ganhos</string>
+    <string name="summary_expense_label">Gastos</string>
+    <string name="summary_previous_month">Mês anterior</string>
+    <string name="summary_next_month">Próximo mês</string>
+    <string name="summary_expenses_count_one">%1$d lançamento</string>
+    <string name="summary_expenses_count_many">%1$d lançamentos</string>
+    <string name="summary_no_expenses_month">Sem lançamentos</string>
+    <string name="summary_distribution_title">Distribuição por categoria</string>
+
+    <!-- Categories -->
+    <string name="category_all">Todos</string>
+    <string name="category_food">Alimentação</string>
+    <string name="category_transport">Transporte</string>
+    <string name="category_home">Casa</string>
+    <string name="category_leisure">Lazer</string>
+    <string name="category_work">Trabalho</string>
+    <string name="category_other">Outros</string>
+
+    <!-- Empty State -->
+    <string name="empty_title">Nenhum gasto registrado</string>
+    <string name="empty_subtitle">Digite livremente abaixo, envie uma foto de cupom ou compartilhe um comprovante Pix do seu banco.</string>
+    <string name="empty_filtered_title">Nenhum gasto em %1$s</string>
+    <string name="empty_filtered_subtitle">Não há despesas nesta categoria para o mês selecionado.</string>
+    <string name="empty_clear_filter">Ver todos</string>
+    <string name="empty_try_examples">Toque para testar:</string>
+    <string name="example_prompt_1">42 gasolina e 18 almoço</string>
+    <string name="example_prompt_2">135,90 mercado e 24,50 uber</string>
+    <string name="example_prompt_3">89,90 internet casa</string>
+
+    <!-- Quick Input Bar -->
+    <string name="input_placeholder">Ex: 42 gasolina e 18 almoço</string>
+    <string name="action_attach">Anexar foto ou PDF</string>
+    <string name="action_send">Enviar gasto para o Gemini</string>
+    <string name="action_delete_expense">Excluir gasto</string>
+
+    <!-- Attachment Sheet -->
+    <string name="attach_sheet_title">Anexar comprovante</string>
+    <string name="attach_camera_title">Tirar foto</string>
+    <string name="attach_camera_subtitle">Cupom fiscal ou recibo impresso</string>
+    <string name="attach_gallery_title">Escolher imagem</string>
+    <string name="attach_gallery_subtitle">Print de Pix ou foto da galeria</string>
+    <string name="attach_pdf_title">Selecionar PDF</string>
+    <string name="attach_pdf_subtitle">Comprovante Pix ou nota em PDF</string>
+
+    <!-- Loading & Processing -->
+    <string name="analyzing_text">Analisando texto com Gemini…</string>
+    <string name="analyzing_photo">Lendo cupom com Gemini…</string>
+    <string name="analyzing_pdf">Extraindo comprovante PDF…</string>
+    <string name="analyzing_pix_share">Lendo comprovante Pix compartilhado…</string>
+
+    <!-- Confirmation BottomSheet -->
+    <string name="confirm_title_single">Confirmar lançamento</string>
+    <string name="confirm_title_multiple">Confirmar %1$d lançamentos</string>
+    <string name="confirm_subtitle">Escolha se é Gasto (-) ou Ganho (+) e ajuste os detalhes antes de salvar</string>
+    <string name="confirm_type_label">Tipo do lançamento</string>
+    <string name="type_expense">Gasto</string>
+    <string name="type_expense_hint">Diminui</string>
+    <string name="type_income">Ganho</string>
+    <string name="type_income_hint">Soma</string>
+    <string name="confirm_field_description">Descrição</string>
+    <string name="confirm_field_amount">Valor (R$)</string>
+    <string name="confirm_field_date">Data (dd/MM/aaaa)</string>
+    <string name="confirm_field_category">Categoria</string>
+    <string name="confirm_remove_item">Remover este item</string>
+    <string name="confirm_cancel">Cancelar</string>
+    <string name="confirm_save_single">Salvar lançamento</string>
+    <string name="confirm_save_multiple">Salvar %1$d lançamentos</string>
+    <string name="confirm_invalid_values">Informe uma descrição e um valor maior que zero para salvar.</string>
+
+    <!-- Snackbars & Errors -->
+    <string name="snackbar_saved_single">Lançamento salvo com sucesso</string>
+    <string name="snackbar_saved_multiple">%1$d lançamentos salvos com sucesso</string>
+    <string name="snackbar_deleted">Lançamento excluído</string>
+    <string name="snackbar_undo">Desfazer</string>
+    <string name="error_empty_extraction">O Gemini não identificou nenhum gasto nesse conteúdo. Tente descrever o valor e o item.</string>
+    <string name="error_timeout">O Gemini demorou mais de 60 segundos para responder. Verifique sua conexão e tente novamente.</string>
+    <string name="error_generic">Não foi possível analisar o gasto: %1$s</string>
+    <string name="error_media_load">Não foi possível ler o arquivo selecionado. Verifique se o formato é imagem ou PDF válido.</string>
+    <string name="error_camera_permission">Permissão de câmera necessária para fotografar cupons fiscais.</string>
+    <string name="action_dismiss">Fechar</string>
+</resources>
